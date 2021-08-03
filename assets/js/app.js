@@ -53,6 +53,9 @@ createPizzaItem = () => {
         } else if (crust == 'Stuffed') {
             crustCost = 400;
         }
+         else if (crust == 'Gluten-Free') {
+            crustCost = 600;
+        }
 
         console.log(crustCost);
         

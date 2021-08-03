@@ -14,15 +14,18 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container-fluid {
   padding: 0;
   margin: 0;
 }
 
-nav {
+.navbar {
   height: 10vh;
   background-color: #214b8a;
-  /* display: flex; */
 }
 
 .hero {
