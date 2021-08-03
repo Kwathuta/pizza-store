@@ -105,6 +105,12 @@ p.tagline {
   padding: 2rem;
 }
 
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
 button {
   margin: 2rem 2rem;
 }
