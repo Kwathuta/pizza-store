@@ -111,6 +111,14 @@ p.tagline {
   width: 60vw;
 }
 
+#total {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  font-weight: bold;
+}
+
 button {
   margin: 2rem 2rem;
 }

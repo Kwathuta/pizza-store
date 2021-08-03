@@ -110,4 +110,6 @@ createPizzaItem = () => {
     p.setAttribute('id', 'sub-total');
     p.appendChild(subTotalText);
     div.appendChild(p);
+
+    document.getElementById('total').innerHTML = `<p>` + 'TOTAL' +  `</p>` + `<p>` + totalcost +  `</p>`
 };
