@@ -113,3 +113,16 @@ createPizzaItem = () => {
 
     document.getElementById('total').innerHTML = `<p>` + 'TOTAL' +  `</p>` + `<p>` + totalcost +  `</p>`
 };
+
+deliver = () => {
+    address = prompt('Which address do we deliver to? Please note we have a delivery fee of Ksh 150 within environs')
+    if (address == "" || address == null) {
+        alert('Please input your delivery address')
+    } else {
+        alert('Thank you! Your order will be delivered to ' + address + '. Please prepare a total of ' + (totalcost+150) + ' for the rider')
+    }
+}
+
+pickUp = () => {
+    alert('Thank you! Your order will be ready in 45 mins. See you at Marsabit Plaza, Ground Floor. Please prepare a total of Ksh ' + totalcost + ' with you')
+}
