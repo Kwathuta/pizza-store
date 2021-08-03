@@ -112,6 +112,8 @@ createPizzaItem = () => {
     div.appendChild(p);
 
     document.getElementById('total').innerHTML = `<p>` + 'TOTAL' +  `</p>` + `<p>` + totalcost +  `</p>`
+
+
 };
 
 deliver = () => {
@@ -119,10 +121,14 @@ deliver = () => {
     if (address == "" || address == null) {
         alert('Please input your delivery address')
     } else {
-        alert('Thank you! Your order will be delivered to ' + address + '. Please prepare a total of ' + (totalcost+150) + ' for the rider')
+        alert('Thank you! Your order will be delivered to ' + address + '. Please prepare a total of Ksh ' + (totalcost+150) + ' for the rider')
     }
 }
 
 pickUp = () => {
     alert('Thank you! Your order will be ready in 45 mins. See you at Marsabit Plaza, Ground Floor. Please prepare a total of Ksh ' + totalcost + ' with you')
 }
+
+$(`.order-show`).click( () => {
+    $(`.order-confirm`).show(800);
+})

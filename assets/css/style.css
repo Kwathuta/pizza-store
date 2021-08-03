@@ -103,6 +103,7 @@ p.tagline {
 
 .order-confirm {
   padding: 2rem;
+  display: none;
 }
 
 .list {
